@@ -1,0 +1,86 @@
+{
+    "constraints": [
+        {
+            "pattern": "/proyectos/*",
+            "permit": false,
+            "roles-allowed": [
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/crearproyecto",
+            "permit": false,
+            "roles-allowed": [
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/gateway",
+            "permit": false,
+            "roles-allowed": [
+                "viewer",
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/gateway/productos",
+            "permit": false,
+            "roles-allowed": [
+                "produccion2"
+            ]
+        },
+        {
+            "pattern": "/gateway/proveedores",
+            "permit": false,
+            "roles-allowed": [
+                "viewer",
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/gateway/transacciones",
+            "permit": false,
+            "roles-allowed": [
+                "viewer",
+                "produccion2"
+            ]
+        },
+        {
+            "pattern": "/gateway/*",
+            "permit": false,
+            "roles-allowed": [
+                "produccion2"
+            ]
+        },
+        {
+            "pattern": "/canalsms",
+            "permit": false,
+            "roles-allowed": [
+                "viewer",
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/canalsms/transacciones",
+            "permit": false,
+            "roles-allowed": [
+                "viewer",
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/canalsms/*",
+            "permit": false,
+            "roles-allowed": [
+                "produccion"
+            ]
+        },
+        {
+            "pattern": "/*",
+            "permit": false,
+            "roles-allowed": [
+                "produccion"
+            ]
+        }
+    ]
+}

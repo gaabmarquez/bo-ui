@@ -1,6 +1,5 @@
 {
-    "constraints": [
-        {
+    "constraints": [{
             "pattern": "/proyectos/*",
             "permit": false,
             "roles-allowed": [
@@ -26,7 +25,7 @@
             "pattern": "/gateway/productos",
             "permit": false,
             "roles-allowed": [
-                "produccion2"
+                "produccion"
             ]
         },
         {
@@ -42,14 +41,14 @@
             "permit": false,
             "roles-allowed": [
                 "viewer",
-                "produccion2"
+                "produccion"
             ]
         },
         {
             "pattern": "/gateway/*",
             "permit": false,
             "roles-allowed": [
-                "produccion2"
+                "produccion"
             ]
         },
         {

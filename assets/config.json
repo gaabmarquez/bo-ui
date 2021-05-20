@@ -1,0 +1,6 @@
+{
+    "url": "https://keycloak-bo.apps.os.netlabs.com.uy/auth",
+    "realm": "master",
+    "clientId": "backoffice",
+    "baseUrl": "https://backoffice-web.apps.os.netlabs.com.uy"
+}

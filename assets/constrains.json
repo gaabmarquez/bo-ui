@@ -24,7 +24,7 @@
         },
         
         {
-            "pattern": "/gateway/productos/*",
+            "pattern": "/gateway/productos",
             "permit": false,
             "roles-allowed": [
                 "produccion_viewGC",
